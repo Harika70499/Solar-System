@@ -1,0 +1,345 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Solar System</title>
+    <style>
+       #orbit9{
+            width: 1000px;
+            height: 1000px;
+            border: 2px solid yellow;
+            border-radius: 50%;
+            position: relative;
+            left:250px;
+        }
+        #pluto{
+         width: 50px;
+         height: 50px;
+         border: 2px solid black;
+         border-radius: 50%;
+         background-color:darkkhaki ;
+         position: absolute;
+         top: 450px;
+         left: 470px;
+          animation: pluto 300s linear infinite; 
+        }
+          @keyframes pluto {
+            0%{
+            transform: rotate(360deg) translateX(500px);
+            }
+            100%{
+                transform: rotate(0deg) translateX(510px);
+            } 
+        } 
+        #orbit8{
+            width: 850px;
+            height: 850px;
+            border: 2px solid yellow;
+            border-radius: 50%;
+            position: relative;
+            left:90px;
+            top: 65px;
+        } 
+        #neptune{
+         width: 50px;
+         height: 50px;
+         border: 2px solid black;
+         border-radius: 50%;
+         background-color:blue ;
+         position: absolute;
+         top: 400px;
+         left: 380px;
+          animation: neptune 240s linear infinite;  
+        }
+        @keyframes neptune {
+            0%{
+            transform: rotate(360deg) translateX(430px);
+            }
+            100%{
+                transform: rotate(0deg) translateX(430px);
+            }
+        }  
+        #orbit7{
+            width: 700px;
+            height: 700px;
+            border: 2px solid yellow;
+            border-radius: 50%;
+            position: relative;
+            left:160px;
+            top: -720px;
+        } 
+        #uranus{
+         width: 40px;
+         height: 40px;
+         border: 2px solid black;
+         border-radius: 50%;
+         background-color:blue;
+         position: absolute;
+         top: 300px;
+         left: 300px;
+         animation: uranus 180s linear infinite;   
+        }
+         @keyframes uranus {
+            0%{
+            transform: rotate(360deg) translateX(350px);
+            }
+             100%{
+                transform: rotate(0deg) translateX(350px);
+            }  
+        } 
+        #orbit6{
+            width: 550px;
+            height: 550px;
+            border: 2px solid yellow;
+            border-radius: 50%;
+            position: relative;
+            left:240px;
+            top: -1340px;
+        } 
+        #saturn{
+         width: 50px;
+         height: 50px;
+         border: 2px solid black;
+         border-radius: 50%;
+         background-color:bisque;
+         position: absolute;
+         top: 240px;
+         left: 240px;
+          animation: saturn 200s linear infinite;     
+        }
+           @keyframes saturn {
+            0%{
+            transform: rotate(360deg) translateX(320px);
+            }
+            100%{
+                transform: rotate(0deg) translateY(320px);
+            } 
+        }    
+        #orbit5{
+            width: 400px;
+            height:400px;
+            border: 2px solid yellow;
+            border-radius: 50%;
+            position: relative;
+            left:320px;
+            top: -1820px;
+        } 
+        #jupiter{
+         width: 60px;
+         height: 60px;
+         border: 2px solid black;
+         border-radius: 50%;
+         background-color:palegreen;
+         position: absolute;
+         top: 140px;
+         left: 170px;
+        animation: jupiter 120s linear infinite;   
+        }
+        @keyframes jupiter {
+            0%{
+            transform: rotate(360deg) translateX(200px);
+            }
+            
+            100%{
+                transform: rotate(0deg) translateX(200px);
+            } 
+        }  
+        #orbit4{
+            width: 300px;
+            height:300px;
+            border: 2px solid yellow;
+            border-radius: 50%;
+            position: relative;
+            left:370px;
+            top: -2170px;
+        }  
+         #mars{
+         width: 30px;
+         height: 30px;
+         border: 2px solid black;
+         border-radius: 50%;
+         background-color:darkred;
+         position: absolute;
+         top: 120px;
+         left: 140px;
+         animation: mars 100s linear infinite;   
+        }
+         @keyframes mars {
+            0%{
+            transform: rotate(360deg) translateX(150px);
+            }
+           100%{
+            transform: rotate(0deg) translateX(150px);
+            } 
+        } 
+        #orbit3{
+            width: 230px;
+            height:230px;
+            border: 2px solid yellow;
+            border-radius: 50%;
+            position: relative;
+            left:400px;
+            top: -2445px;
+        }   
+        #earth{
+         width: 30px;
+         height: 30px;
+         border: 2px solid black;
+         border-radius: 50%;
+         background-color:aqua;
+         position: absolute;
+         top: 80px;
+         left: 100px;
+          animation: earth 80s linear infinite;    
+        }
+         @keyframes earth {
+            0%{
+            transform: rotate(360deg) translateX(100px);
+            }
+           
+            100%{
+                transform: rotate(0deg) translateX(100px);
+            } 
+        } 
+        #moon{
+            width: 20px;
+            height: 20px;
+            background-color: antiquewhite;
+            border: 2px solid black;
+            border-radius: 50%;
+            position: absolute;
+            top:70px;
+            left:110px ;
+            animation: moon 90s infinite linear;
+        }
+          @keyframes moon {
+            0%{
+                transform: rotate(360deg) translateX(100px);
+            }
+            100%{
+                transform: rotate(0deg) translateX(100px);
+            }
+        } 
+        #orbit2{
+            width: 150px;
+            height:150px;
+            border: 2px solid yellow;
+            border-radius: 50%;
+            position: relative;
+            left:437px;
+            top: -2640px;
+        }   
+        #venus{
+         width: 20px;
+         height: 20px;
+         border: 2px solid black;
+         border-radius: 50%;
+         background-color:orangered;
+         position: absolute;
+         top: 60px;
+         left: 65px;
+          animation: venus 90s linear infinite;    
+        }
+        @keyframes venus {
+            0%{
+            transform: rotate(360deg) translateX(70px);
+            }
+           
+            100%{
+                transform: rotate(0deg) translateX(70px);
+            } 
+        } 
+        #orbit1{
+            width: 110px;
+            height:110px;
+            border: 2px solid yellow;
+            border-radius: 50%;
+            position: relative;
+            left:455px;
+            top: -2775px;
+        }
+        #mercury{
+         width: 25px;
+         height: 25px;
+         border: 2px solid black;
+         border-radius: 50%;
+         background-color:orange;
+         position: absolute;
+         top: 40px;
+         left: 42px;
+         animation: mercury 60s linear infinite;     
+        } 
+         @keyframes mercury {
+            0%{
+                transform: rotate(360deg) translateX(50px);
+            }
+            100%{
+                transform: rotate(0deg) translateX(50px);
+            } 
+        }
+        #sun{
+            width: 40px;
+            height: 40px;
+            border: 2px solid black;
+            border-radius: 50%;
+            background-color: darkred;
+            position: relative;
+            top: 500px;
+            left: 750px;
+            animation: sun 10s infinite normal;
+        }
+        @keyframes sun {
+            0%{
+                background-color: red;
+                filter: hue-rotate(0deg);
+            }
+            100%{
+                background-color: orangered;
+                filter: hue-rotate(3600deg);
+            }
+            
+        }
+        h1,h2,h3,h4,h6{
+            color: chartreuse;
+        }
+        h5{
+            color: brown;
+        }
+        audio{
+            opacity: 0.5;
+        }
+    </style>
+</head>
+<body background="C:\Users\shyla\Downloads\universe.jpg" >
+    <audio src="C:\Users\shyla\Downloads\videoplayback.mp4" controls> </audio>
+    <div id="sun"><center><h4>SUN</h></center></div>
+    <div id="orbit9">
+    <div id="pluto"><center><h6>pluto</h6></center> 
+    </div>
+    <div id="orbit8">
+        <div id="neptune"><center><h5>neptune</h5></center></div>
+    </div>
+    <div id="orbit7">
+        <div id="uranus"><center><h6>uranus</h6></center></div>
+    </div>
+    <div id="orbit6">
+        <div id="saturn"><center><h5>saturn</h5></center></div>
+    </div>
+    <div id="orbit5">
+        <div id="jupiter"><center><h5>jupiter</h5></center></div>
+    </div>
+    <div id="orbit4">
+        <div id="mars"><center><h6>mars</h6></center></div>
+    </div>
+    <div id="orbit3">
+        <div id="moon"><center><h6>moon</h6></center></div>
+        <div id="earth"><center><h6>earth</h6></center></div>
+    </div>
+    <div id="orbit2">
+    <div id="venus"><center><h6>venus</h6></center></div>
+    </div>
+    <div id="orbit1">
+        <div id="mercury"><center><h6>mercury</h6></center></div>
+        </div>
+    
+
+        
